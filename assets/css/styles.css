@@ -1,0 +1,173 @@
+:root{
+    --color_azul: #033859;
+    --gris_claro: #D4D2D2;
+    --semi_blanco: #EAEAE8;
+    --gris_oscuro: #616162;
+}
+
+html {
+    font-size: 62.5%; /*1 rem = 10px*/
+    box-sizing: border-box;
+}
+
+*, *::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2.8rem;
+}
+
+h3{
+    font-size: 2.2rem;
+}
+
+h4{
+    font-size: 1.8rem;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    width: 35%;
+    padding: 2rem;
+}
+
+.box2{
+    width: 65%;
+    padding: 2rem;
+}
+
+/*Aside*/
+
+.contenedor{
+    background-image: url(../img/pawel-czerwinski-edxkIZwKvJk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--semi_blanco);
+    padding: 4rem;
+}
+
+.titulo{
+    border-bottom: 1px solid var(--semi_blanco);
+}
+
+.text{
+   padding-top: 4rem;
+   padding-bottom: 4rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--semi_blanco);
+    margin: 1rem;
+}
+
+.navbar a:hover{
+    background-color: var(--semi_blanco);
+    color: var(--color_azul);
+    font-weight: 500;
+}
+
+.list{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    line-height: 2rem;
+}
+
+/*Header*/
+
+.box{
+    width: 50%;
+}
+
+.container{
+    padding: 4rem;
+}
+
+.header h2{
+    text-transform: uppercase;
+}
+
+.header img{
+    border-radius: 50%;
+}
+
+/*Main*/
+
+.border{
+    border-bottom: 1px solid var(--gris_oscuro);
+    padding-bottom: 1rem;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.padding{
+    padding-bottom: 4rem;
+}
+
+/*Footer*/
+
+.text-center{
+    text-align: center;
+}
+
+.footer{
+ background-color: var(--gris_claro);
+}
+
+.footer p{
+    margin: 0;
+    padding: 2rem;
+    font-weight: 500;   
+}
+
+/*Portafolio*/
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.portafolio h2{
+    text-align: center;
+    padding: 5rem 0 3rem 0;
+}
+
+.portafolio img{
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    box-shadow: 2px 3px 4px #616162;
+}
+
+.bg-hero{
+   background-color: var(--semi_blanco);
+}
